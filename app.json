@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Mann Finance",
+    "name": "Personal Finance Tracker",
     "slug": "mann-personal-finance-tracker",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon-mann-v2.png",
     "userInterfaceStyle": "dark",
@@ -17,7 +17,7 @@
       },
       "predictiveBackGestureEnabled": false,
       "package": "com.mann.personalfinance",
-      "versionCode": 3,
+      "versionCode": 4,
       "allowBackup": false
     },
     "web": {

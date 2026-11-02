@@ -502,8 +502,10 @@ function Tracker() {
       <SafeAreaView style={styles.safe}>
         <StatusBar style="light" />
         <View style={styles.header}>
-          <View>
-            <Text style={styles.eyebrow}>MANN FINANCE</Text>
+          <View style={{ flex: 1, minWidth: 0 }}>
+            <Text style={styles.eyebrow} numberOfLines={1} adjustsFontSizeToFit>
+              PERSONAL FINANCE TRACKER
+            </Text>
             <Text style={styles.title}>
               {tab === "Home" ? "Your wallet" : tab}
             </Text>
