@@ -1,13 +1,13 @@
 import { Account, State } from "./finance";
 export const brands: Record<
   string,
-  { name: string }
+  { name: string; color: string; ink: string }
 > = {
-  gcash: { name: "GCash" },
-  maya: { name: "Maya" },
-  bpi: { name: "BPI" },
-  metrobank: { name: "Metrobank" },
-  "security-bank": { name: "Security Bank" },
+  gcash: { name: "GCash", color: "#0754dd", ink: "#ffffff" },
+  maya: { name: "Maya", color: "#9bff51", ink: "#10250b" },
+  bpi: { name: "BPI", color: "#a61932", ink: "#ffffff" },
+  metrobank: { name: "Metrobank", color: "#06428b", ink: "#ffffff" },
+  "security-bank": { name: "Security Bank", color: "#086441", ink: "#ffffff" },
 };
 export function brandKey(a: Account) {
   if (a.platformKey && brands[a.platformKey]) return a.platformKey;

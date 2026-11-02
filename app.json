@@ -4,15 +4,20 @@
     "slug": "mann-personal-finance-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/icon-mann-v2.png",
+    "userInterfaceStyle": "dark",
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-mann-foreground.png",
+        "monochromeImage": "./assets/icon-mann-monochrome.png",
+        "backgroundColor": "#0c1211"
+      },
       "predictiveBackGestureEnabled": false,
       "package": "com.mann.personalfinance",
-      "versionCode": 1,
+      "versionCode": 3,
       "allowBackup": false
     },
     "web": {
